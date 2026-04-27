@@ -42,7 +42,7 @@ const Index = () => {
   return (
     <>
       <AnimatePresence>{loading && <LoadingScreen />}</AnimatePresence>
-      {/* <Navbar /> */}
+      <Navbar /> 
       <main>
         <HeroSection />
         <AboutSection />
